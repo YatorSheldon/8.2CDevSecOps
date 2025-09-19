@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Hello') {
       steps {
-        echo 'This is my first Jenkins pipeline!'
+        echo "This is my first Jenkins pipeline! ${new Date()}"
       }
     }
   }
